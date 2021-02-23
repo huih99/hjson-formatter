@@ -2,6 +2,8 @@
 
 用于对.hjson文件的格式化
 
+![example](example.gif)
+
 什么是[Hjson](https://hjson.github.io/)？
 
 安装扩展后即可在hjson文件中使用格式化命令进行格式化。
