@@ -21,13 +21,15 @@
 	},
 	"icon": "extension-icon.png",
 	"activationEvents": [
-		"onLanguage:hjson"
+		"onLanguage:hjson",
+		"onLanguage:Hjson"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"languages": [
 			{
-				"id": "Hjson",
+				"id": "hjson",
+				"aliases": ["Hjson","hjson"],
 				"extensions": [
 					".hjson"
 				]
