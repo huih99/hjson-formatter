@@ -6,7 +6,7 @@
 	"version": "0.0.1",
 	"license": "MIT",
 	"engines": {
-		"vscode": "^1.53.0"
+		"vscode": "^1.20.0"
 	},
 	"keywords": [
 		"json",
@@ -29,7 +29,10 @@
 		"languages": [
 			{
 				"id": "hjson",
-				"aliases": ["Hjson","hjson"],
+				"aliases": [
+					"Hjson",
+					"hjson"
+				],
 				"extensions": [
 					".hjson"
 				]
@@ -52,7 +55,7 @@
 		"@types/hjson": "^2.4.2",
 		"@types/mocha": "^8.0.4",
 		"@types/node": "^12.11.7",
-		"@types/vscode": "^1.53.0",
+		"@types/vscode": "1.20.0",
 		"@typescript-eslint/eslint-plugin": "^4.14.1",
 		"@typescript-eslint/parser": "^4.14.1",
 		"eslint": "^7.19.0",
