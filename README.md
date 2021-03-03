@@ -1,5 +1,9 @@
 # hjson-formatter
 
+[![version](https://img.shields.io/visual-studio-marketplace/v/Tanh.hjson-formatter)](https://marketplace.visualstudio.com/items?itemName=Tanh.hjson-formatter)
+[![installs](https://img.shields.io/visual-studio-marketplace/i/Tanh.hjson-formatter)](https://marketplace.visualstudio.com/items?itemName=Tanh.hjson-formatter)
+[![downloads](https://img.shields.io/visual-studio-marketplace/d/Tanh.hjson-formatter)](https://marketplace.visualstudio.com/items?itemName=Tanh.hjson-formatter)
+
 用于对.hjson文件的格式化
 
 ![example](example.gif)
