@@ -10,7 +10,7 @@
 
 什么是[Hjson](https://hjson.github.io/)？
 
-安装扩展后即可在hjson文件中使用格式化命令进行格式化。
+安装扩展后即可在hjson文件中使用格式化命令(默认命令为`shift+alt+f`)进行格式化。
 
 > 推荐安装扩展[Hjson](https://marketplace.visualstudio.com/items?itemName=laktak.hjson)以获得更好的语言支持
 
