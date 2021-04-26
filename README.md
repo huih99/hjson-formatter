@@ -32,8 +32,8 @@
     * "no-tabs": like std but disallow tabs
     * "off": show in JSON format
   * separator: boolean, output a comma separator between elements. Default false
-  * space: specifies the indentation of nested structures. If it is a number, it will specify the number of spaces to indent at each level. If it is a string (such as '\t' or ' '), it contains the characters used to indent at each level.
-  * eol: specifies the EOL sequence (default is set by Hjson.setEndOfLine())
+  * space: specifies the indentation of nested structures. If it is a number, it will specify the number of spaces to indent at each level. If it is a string (such as '\t' or ' '), it contains the characters used to indent at each level. if it is 'auto', will use current editor's indents
+  * eol: specifies the EOL sequence. if it is 'auto', will use current editor's endOfLine
   * colors: boolean, output ascii color codes
   * serializeDeterministically: boolean, when serializing objects into hjson, order the keys based on their UTF-16 code units order. Default false.
 
