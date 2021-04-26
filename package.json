@@ -37,7 +37,100 @@
 					".hjson"
 				]
 			}
-		]
+		],
+		"configuration": {
+			"title": "Hjson Formatter",
+			"properties": {
+				"hjson-formatter.options": {
+					"type": "object",
+					"default": {
+						"separator": true,
+						"condense": 4,
+						"bracesSameLine": true,
+						"quotes": "keys",
+						"space": 2
+					},
+					"properties": {
+						"condense": {
+							"type": "integer",
+							"default": "0",
+							"description": "if less than condense,will try to fit objects/arrays onto one line"
+						},
+						"bracesSameLine": {
+							"type": "boolean",
+							"default": false,
+							"description": "makes braces appear on the same line as the key name"
+						},
+						"emitRootBraces": {
+							"type": "boolean",
+							"default": true,
+							"description": "show braces for the root object"
+						},
+						"quotes": {
+							"type": "string",
+							"default": "strings",
+							"enum": [
+								"min",
+								"keys",
+								"strings",
+								"all"
+							],
+							"enumDescriptions": [
+								"no quotes whenever possible",
+								"use quotes around keys",
+								"use quotes around string values",
+								"use quotes around keys and string values"
+							],
+							"description": "controls how strings are displayed. (setting separator implies 'strings')"
+						},
+						"multiline": {
+							"type": "string",
+							"default": "off",
+							"enum": [
+								"std",
+								"no-tabs",
+								"off"
+							],
+							"enumDescriptions": [
+								"strings containing \\n are shown in multiline format",
+								"like std but disallow tabs",
+								"show in JSON format"
+							],
+							"description": "controls how multiline strings are displayed. (setting quotes implies 'off')"
+						},
+						"separator": {
+							"type": "boolean",
+							"default": false,
+							"description": "output a comma separator between elements"
+						},
+						"space": {
+							"type": [
+								"number",
+								"string"
+							],
+							"default": "auto",
+							"description": "specifies the indentation of nested structures. If it is a number, it will specify the number of spaces to indent at each level. If it is a string (such as '\t' or ' '), it contains the characters used to indent at each level. if it is 'auto', will use current editor's indents"
+						},
+						"eol": {
+							"type": "string",
+							"default": "auto",
+							"description": "specifies the EOL sequence.if it is 'auto', will use current editor's endOfLine"
+						},
+						"colors": {
+							"type": "boolean",
+							"default": false,
+							"description": "output ascii color codes"
+						},
+						"serializeDeterministically": {
+							"type": "boolean",
+							"default": false,
+							"description": "when serializing objects into hjson, order the keys based on their UTF-16 code units order"
+						}
+					},
+					"description": "Customize options to determine how to use the extended format hjson"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
