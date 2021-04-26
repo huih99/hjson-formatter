@@ -2,7 +2,7 @@
 	"name": "hjson-formatter",
 	"displayName": "hjson-formatter",
 	"publisher": "Tanh",
-	"description": "format hsjon",
+	"description": "format hjson",
 	"version": "0.0.2",
 	"license": "MIT",
 	"engines": {
