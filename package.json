@@ -3,7 +3,7 @@
 	"displayName": "hjson-formatter",
 	"publisher": "Tanh",
 	"description": "format hjson",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.20.0"
