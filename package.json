@@ -133,6 +133,9 @@
 		}
 	},
 	"scripts": {
+		"publish-major": "vsce publish major",
+		"publish-minor": "vsce publish minor",
+		"publish-patch": "vsce publish patch",
 		"vscode:prepublish": "yarn run package",
 		"compile": "webpack",
 		"watch": "webpack --watch",
